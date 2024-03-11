@@ -49,7 +49,6 @@ changelog:
       - "^test:"
 
 release:
-  github:
-    draft: true
-    replace_existing_draft: true
+  draft: true
+  replace_existing_draft: true
 
