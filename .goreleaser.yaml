@@ -30,6 +30,9 @@ builds:
     goarm:
       - 6
       - 7
+    ignore:
+      - goos: freebsd
+        goarch: s390x 
 archives:
   - format: tar.gz
     # this name template makes the OS and Arch compatible with the results of `uname`.
